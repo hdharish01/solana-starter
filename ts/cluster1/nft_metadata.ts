@@ -17,14 +17,14 @@ umi.use(signerIdentity(signer));
         // Follow this JSON structure
         // https://docs.metaplex.com/programs/token-metadata/changelog/v1.0#json-structure
 
-        const image = "https://devnet.irys.xyz/632NagbkhijcoZXA9ydL6qotWEEycxjgaKnmuWKCt81e"
+        const image = "https://devnet.irys.xyz/FCYcu546YffUSfT27g9ubsRKNVqyjQXbD6M9cE3ApvrC"
         const metadata = {
-            name: "Saitama NFT",
-            symbol: "OK",
-            description: "This is a NFT for Saitama",
+            name: "LEVI",
+            symbol: "LEV",
+            description: "Official LEVI token",
             image: image,
             attributes: [
-                {trait_type: 'anime', value: 'OnePunchMan'}
+                {trait_type: 'anime', value: 'AOT'}
             ],
             properties: {
                 files: [
